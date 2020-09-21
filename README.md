@@ -8,10 +8,10 @@ As the name suggests, TS is a collection of data points collected at constant ti
 
 But what makes a TS different from say a regular regression problem? There are 2 things:
 
-*It is time dependent. So the basic assumption of a linear regression model that the observations are independent doesn’t hold in this case.      
-*Along with an increasing or decreasing trend, most TS have some form of seasonality trends, i.e. variations specific to a particular time frame. For example, if you see the sales of a woolen jacket over time, you will invariably find higher sales in winter seasons.  
+* It is time dependent. So the basic assumption of a linear regression model that the observations are independent doesn’t hold in this case.      
+* Along with an increasing or decreasing trend, most TS have some form of seasonality trends, i.e. variations specific to a particular time frame. For example, if you see the sales of a woolen jacket over time, you will invariably find higher sales in winter seasons.  
 
-##Check Stationarity of a Time Series
+## Check Stationarity of a Time Series
 
 Stationarity is defined using very strict criterion. However, for practical purposes we can assume the series to be stationary if it has constant statistical properties over time, ie. the following:  
 * Constant mean  
