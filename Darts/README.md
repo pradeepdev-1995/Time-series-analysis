@@ -1,0 +1,3 @@
+# Darts
+
+**Darts** is a python library for easy manipulation and forecasting of time series. It contains a variety of models, from classics such as ARIMA to neural networks. The models can all be used in the same way, using *fit()* and *predict()* functions, similar to scikit-learn. The library also makes it easy to backtest models, and combine the predictions of several models and external regressors.
